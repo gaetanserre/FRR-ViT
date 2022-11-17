@@ -1,4 +1,2 @@
 torch>=1.13.0
 torchvision>=0.13.1
-timm>=0.6.11
-tqdm>=4.64.1
