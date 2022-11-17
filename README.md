@@ -1,4 +1,4 @@
-## Fundamentals of reproducible research and free software project -- Vision Transformer
+## Fundamentals of reproducible research and free software project - Vision Transformer
 
 This repository uses the original implementation of [Vision Transformer](https://arxiv.org/abs/2010.11929) to check the reproducibility of the paper. The original implementation is [here](https://github.com/google-research/vision_transformer).
 
