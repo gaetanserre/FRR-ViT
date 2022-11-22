@@ -18,4 +18,4 @@ The results are slightly different from the original paper. We believe that it i
     ```
 
 2. Download ImageNet-ILSVRC 2012 validation dataset and place it in a `ImageNet` directory.
-3. Execute the Jupiter notebook `reproduce.ipynb`.
+3. Execute the `reproduce.py` script: `python reproduce.py`.
