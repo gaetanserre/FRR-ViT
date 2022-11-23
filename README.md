@@ -9,7 +9,7 @@ We selected two models: ViT-B/16 and ViT-L/16 using weights pre-trained on Image
 | ViT-B/16 | 81.58 | 83.97 |
 | ViT-L/16 | 82.73 | 85.15 |
 
-The results are slightly different from the original paper. We believe that it is due to a difference in the evaluation data.
+The results are slightly different from the original paper. We believe that it is due to a difference in the evaluation data (validation split vs test split).
 
 ## Usage
 1. Install requirements (PyTorch, torchvision, timm, tqdm).
@@ -17,5 +17,5 @@ The results are slightly different from the original paper. We believe that it i
     pip install -r requirements.txt
     ```
 
-2. Download ImageNet-ILSVRC 2012 validation dataset and place it in a `ImageNet` directory.
+2. Download ImageNet-ILSVRC 2012 validation dataset and extract it it in a `ImageNet` directory.
 3. Execute the `reproduce.py` script: `python reproduce.py`.
